@@ -125,9 +125,8 @@ filterProperties = () => {
 
 The most common uses of ***componentDidUpdate()*** is managing 3rd party UI elements and interacting with the Native UI. When using 3rd Party libraries, like our Chart example, we need to update the UI library with new data.
 
-```
-Here we access our markers from the state and update it when the filters are applied.
 
+Here we access our markers from the state and update it when the filters are applied.
 
 ```
 componentDidUpdate() {
