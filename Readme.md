@@ -128,7 +128,7 @@ The most common uses of ***componentDidUpdate()*** is managing 3rd party UI elem
 
 Here we access our markers from the state and update it when the filters are applied.
 
-```
+```javascript
 componentDidUpdate() {
 		const { filteredProperties, isFiltering } = this.props;
 		const { markers } = this.state;
