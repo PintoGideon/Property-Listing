@@ -1,0 +1,1 @@
+setState() does not always immediately update the component. It may batch or defer the update till later. This makes reading this.state right after calling setState() a potential pitfall. Instead, use componentDidUpdate or a setState callback, eitehr of which are guranteed to fire after the update has been applied. 
