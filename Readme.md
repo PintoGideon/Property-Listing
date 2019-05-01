@@ -24,7 +24,7 @@ While coding this application, I realized my mistakes and am documenting it here
 
 # The Hard Parts
 
-### Multiple Parts
+### Multiple Filters
 
 Have an app level state for the filters. In the coding challenge, I used filters as an array but it did not work well. I am not a big fan of storing state like below and would be practising storing it implicitly by creating compoun component. However, it is important to first get a working example of the app and then moving pieces around.
 
