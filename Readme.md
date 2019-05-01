@@ -1,6 +1,6 @@
 # A Property Listing App
 
-I created this app as a part of my Netfix and Skills series where I create apps in my spare time. Here is a link to one: [Github Battle](https://github.com/PintoGideon/Battle-on-Github/edit/master/Readme.md)
+I created this app as a part of my Netfix and Skills series where I create apps in my spare time. Here is a link to one: [Github Battle](https://github.com/PintoGideon/Battle-on-Github)
 
 I recevied a take away coding challenge by a company which was pretty basic. All I had to do was apply multiple filters across the columns in the table and sort them. I was on track until I decided to refactor my code and wound myself ending up not finishing the test and getting rejected. 
 
