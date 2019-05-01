@@ -160,18 +160,17 @@ Have a name property on your filters allows you have a common handleChange funct
 
 ```html
 <div className="filterBox">
-					<label htmlFor="filterBedrooms">Bedrooms</label>
-					<select
-						id="filterBedrooms"
-						name="filterBedrooms"
-						onChange={event => handleFilterChange(event)}
+<label htmlFor="filterBedrooms">Bedrooms</label>
+<select
+id="filterBedrooms"name="filterBedrooms"
+onChange={event => handleFilterChange(event)}
 					>
-						<option value="any">Any</option>
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-					</select>
-				</div>
+<option value="any">Any</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select>
+</div>
 
 ```
 
