@@ -5,6 +5,8 @@ dist/
 firebase.json
 package-lock.json
 .vscode
+.bootstraprc
+webpack.bootstrap.config.js
 
 
 
