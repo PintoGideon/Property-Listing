@@ -26,7 +26,7 @@ While coding this application, I realized my mistakes and am documenting it here
 
 ### Multiple Filters
 
-Have an app level state for the filters. In the coding challenge, I used filters as an array but it did not work well. I am not a big fan of storing state like below and would be practising storing it implicitly by creating compoun component. However, it is important to first get a working example of the app and then moving pieces around.
+Have an app level state for the filters. In the coding challenge, I used filters as an array but it did not work well. I am not a big fan of storing state like below and would be practising storing it implicitly by creating compound component. However, it is important to first get a working example of the app and then moving pieces around.
 
 ```javascript
 this.state = {
@@ -100,8 +100,7 @@ filterProperties = () => {
  
  The logic is to move the markers around the map and show the addresses as popups when the user clicks across the listings. Now, I have an active property in the state which is set when the user clicks on a particular listing.
  
- Whenever the we update the state, 
- 
+ Whenever we update the state, 
  I want the marker to move to the active listing. Initially it is set to the first listing by default. ***getDerivedStateFromProps*** is a static method which is invoked after a component is instantiated as well as when it receives new props. Since it is a static method, you cannot access this inside this method neither you can access any other class method. Unlike componentWillReceiveProps you cannot set state inside this method, so the only way to update state is returning an object. If you don’t want to update any state, simply return null.
  
  ```javascript
